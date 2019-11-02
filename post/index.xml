@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jonathan Fine</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Jonathan Fine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why did I choose Hugo?</title>
+      <link>/post/2019/10/22/why-hugo/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/10/22/why-hugo/</guid>
+      <description>Hugo is a static site generator. To begin with all web sites were static. But now we have web content management systems, such as WordPress. Each approach has advantages and problems. Many things are best of their class, provided you choose the criteria carefully.
+It&amp;rsquo;s easy to archive a static site. One simple makes a back-up of its files. But to archive a WordPress site, you also need to archive the content of a database, and the software that delivers the content.</description>
+    </item>
+    
+  </channel>
+</rss>
