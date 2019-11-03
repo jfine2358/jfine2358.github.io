@@ -21,5 +21,14 @@
 It&amp;rsquo;s easy to archive a static site. One simple makes a back-up of its files. But to archive a WordPress site, you also need to archive the content of a database, and the software that delivers the content.</description>
     </item>
     
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>We&amp;rsquo;d love to hear from you. Please send an email to jfine2358 (at) gmail.com.</description>
+    </item>
+    
   </channel>
 </rss>
