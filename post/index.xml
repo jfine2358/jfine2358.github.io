@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UK TUG — more news soon</title>
+      <link>/post/2019/11/03/uk-tug-more-news-soon/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/11/03/uk-tug-more-news-soon/</guid>
+      <description>There&amp;rsquo;s a lot going on right now in UK TUG. Unfortunately, it&amp;rsquo;s not about promoting and supporting the use of TeX in the UK. It&amp;rsquo;s about politics. It&amp;rsquo;s about who&amp;rsquo;s in charge. And about future direction.
+There&amp;rsquo;s a contested election for Chair. The first in a long time. (I&amp;rsquo;m one of the candidates.)
+There are motions at the AGM related to the dissolution of UK TUG, and distributing its assets. (I&amp;rsquo;m moving one of them.</description>
+    </item>
     
     <item>
       <title>Why did I choose Hugo?</title>
