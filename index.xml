@@ -33,6 +33,16 @@ There are motions at the AGM related to the dissolution of UK TUG, and distribut
     </item>
     
     <item>
+      <title>Why 2358?</title>
+      <link>/post/2019/10/22/why-2358/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/10/22/why-2358/</guid>
+      <description>The number 2358 isn&amp;rsquo;t random. I chose 2358 because 2,3,5,8 are Fibonacci numbers. This is clearer when we write 0, 1, 1, 2, 3, 5, 8. Notice that each number is the sum of the two previous. So the next numbers in the sequence are 13, 21, 34, 55.
+I choose the Fibonacci numbers because their important in my math research. They appear as the dimensions of a graded ring that is of great importance, at least to me.</description>
+    </item>
+    
+    <item>
       <title>Why did I choose Hugo?</title>
       <link>/post/2019/10/22/why-hugo/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
