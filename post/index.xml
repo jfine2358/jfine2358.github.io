@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 10:31:34 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>London Scholarly Tech Meetup</title>
+      <link>/post/2019/11/26/scholarly-tech-meetup/</link>
+      <pubDate>Wed, 27 Nov 2019 10:31:34 +0000</pubDate>
+      
+      <guid>/post/2019/11/26/scholarly-tech-meetup/</guid>
+      <description>Yesterday I met about twenty others at the London Scholarly Tech Meetup. It was good. It was my first time. A varied group mostly, it seemed to me, working for publishers of scholarly books and journals. And in related areas, such as the online LaTeX platform Overleaf. It seemed, although I&amp;rsquo;m not in a position to judge, that much of the group were interested in workflow and data-flow innovation and improvement.</description>
+    </item>
     
     <item>
       <title>UK TeX User Group survives</title>
@@ -27,7 +36,7 @@ This motion was defeated 9 votes to 20, with 7 abstentions. (Most of the votes w
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/11/04/jfine-uktug-chair-statement/</guid>
-      <description>About this statement I&amp;rsquo;m standing for Chair of the UK TeX Users Group. There are two candidates. The other is Jay Hammond. Both of us are long-standing members of committee of UK TUG. Today the candidate statements are circulated to members. Mine is below. (Jay&amp;rsquo;s is available here (PDF).)
+      <description>About this statement I&amp;rsquo;m standing for Chair of the UK TeX Users Group. There are two candidates. The other is Jay Hammond. Both of us are long-standing members of committee of UK TUG. Today the candidate statements are circulated to members. Mine is below. (Jay&amp;rsquo;s is available here.)
 If you&amp;rsquo;re a TeX user in the UK, please read my statement. This election affects you. Maybe not right now, but in a year or two its consequences will be felt.</description>
     </item>
     
