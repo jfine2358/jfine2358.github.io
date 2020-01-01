@@ -6,10 +6,31 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Nov 2019 10:31:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A LaTeX Typing Tutor</title>
+      <link>/post/2020/01/01/latex-type-tutor/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/01/01/latex-type-tutor/</guid>
+      <description>There are many online tutors for learning to type. Here&#39;s a widget, that helps use build an online tutor for learning to type LaTeX mathematics. It just needs a bit more content and development. Interested? Try it out!
+The widget   \[\] \[\]      First box: the mathematics to typeset. Second box: your answer so far, typeset. Third box: type your answer here. Done? Press [Enter] to get a new task.</description>
+    </item>
+    
+    <item>
+      <title>About the LaTeX Typing Tutor</title>
+      <link>/post/2020/01/01/about-latex-type-tutor/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/01/01/about-latex-type-tutor/</guid>
+      <description>Here we look at what makes the LaTeX Typing Tutor works, and future plans.
+User experience I&#39;m an expert. Not a typical user. I&#39;d really like feedback, and personal experience, from people who are learning LaTeX. And the less they know about LaTeX to begin with, the better!
+Content The typing tutor is a platform for the delivery of training content. Under the hood, it has a list of examples.</description>
+    </item>
     
     <item>
       <title>London Scholarly Tech Meetup</title>

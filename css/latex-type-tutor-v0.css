@@ -1,0 +1,23 @@
+#solution_render,
+#answer_render
+{
+    display: block;
+    border: 1px solid gray;
+    margin: 1%;
+    width: 80%;
+    min-height: 8ex;
+    background-color: BlanchedAlmond;
+
+}
+
+#answer_input {
+    padding: 6px;
+    margin: 1%;
+    background-color: BlanchedAlmond;
+    border: 1px white;
+}
+
+#solution_show {
+    background-color: BlanchedAlmond;
+    padding: 4px;
+}
