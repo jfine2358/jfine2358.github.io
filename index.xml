@@ -6,10 +6,22 @@
     <description>Recent content on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LaTeX Tutor Sub and Sup</title>
+      <link>/post/2020/01/14/latex-tutor-sub-and-sup/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/01/14/latex-tutor-sub-and-sup/</guid>
+      <description>There are many online tutors for learning to type. They&#39;re useful. Here&#39;s one, that helps new LaTeX users learn and practice subscripts and superscripts. (It uses an instant-preview widget, based on MathJax.)
+Although only a proof-of-concept prototype, it might already good enough to help some people. And perhaps inspire others.
+Subscripts and superscripts The lesson starts here. The basics are:
+ use underscore &amp;lsquo;_&amp;rsquo; for subscript use caret &amp;lsquo;^&amp;rsquo; for superscript.</description>
+    </item>
     
     <item>
       <title>A LaTeX Typing Tutor</title>
