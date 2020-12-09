@@ -6,10 +6,31 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jan 2020 10:23:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Importance of Typography</title>
+      <link>/post/2020/12/09/importance-of-typography/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/09/importance-of-typography/</guid>
+      <description>The question Last week a member of UK TUG asked me, by email, what were my top 5 beautiful books produced using TeX. I think you might be interested in my answer. Here it is, lightly edited.
+The answer Thank you for your email. Your question surprised me, probably because my experience and history is different from yours.
+The book Concrete Mathematics (by Graham, Knuth and Patashnik) is for me special.</description>
+    </item>
+    
+    <item>
+      <title>UK TeX users — from here to there</title>
+      <link>/post/2020/12/09/uk-tex-users-from-here-to-there/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/09/uk-tex-users-from-here-to-there/</guid>
+      <description>We&#39;ve got just 15 weeks! Summary The UK Tex Users Group (UK TUG) is in perhaps terminal decline. For several years a poorly attended AGM and distribution of DVDs was all it did. That&#39;s here, where we are.
+I want to be somewhere better. That&#39;s there. Less of the original paying-membership and print-centric model. Less focus on paper and PDF typography. More focus on web pages, interaction and accessibility. And open-membership.</description>
+    </item>
     
     <item>
       <title>Calling UK LaTeX editors etc</title>
