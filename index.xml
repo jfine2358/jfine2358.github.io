@@ -6,10 +6,20 @@
     <description>Recent content on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tex Office Hours</title>
+      <link>/post/2020/12/10/tex-office-hours/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/10/tex-office-hours/</guid>
+      <description>Why TeX Office Hours? The UK TeX Users Group is close to folding. It is a closed (paid membership only) organisation. I think it&#39;s time for an open to all UK TeX grouping. To help set this up, I&#39;m holding a TeX Office Hour every Thursday 6:30 to 7:30pm, until the end of March.
+I&#39;m also happy to discuss Python, mathematics and other matters, but TeX (and MathJax) has priority.</description>
+    </item>
     
     <item>
       <title>Importance of Typography</title>
