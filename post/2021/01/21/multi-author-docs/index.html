@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Jonathan Fine  | Multi Author Docs</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.62.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Multi Author Docs" />
+<meta property="og:description" content="Summary We all know that TeX has large use cases, such as research math and physics. This post is about how TeX might help some small niche use cases. We study one example, and suggest how it might scale to others. The scaling depend on non-TeX software and systems, such as web frameworks, and server / cloud computing.
+Introduction We&#39;re social creatures. Mostly, we live in communities. We speak and listen." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/2021/01/21/multi-author-docs/" />
+<meta property="article:published_time" content="2021-01-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-21T00:00:00+00:00" />
+<meta itemprop="name" content="Multi Author Docs">
+<meta itemprop="description" content="Summary We all know that TeX has large use cases, such as research math and physics. This post is about how TeX might help some small niche use cases. We study one example, and suggest how it might scale to others. The scaling depend on non-TeX software and systems, such as web frameworks, and server / cloud computing.
+Introduction We&#39;re social creatures. Mostly, we live in communities. We speak and listen.">
+<meta itemprop="datePublished" content="2021-01-21T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-01-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1047">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Multi Author Docs"/>
+<meta name="twitter:description" content="Summary We all know that TeX has large use cases, such as research math and physics. This post is about how TeX might help some small niche use cases. We study one example, and suggest how it might scale to others. The scaling depend on non-TeX software and systems, such as web frameworks, and server / cloud computing.
+Introduction We&#39;re social creatures. Mostly, we live in communities. We speak and listen."/>
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-151387513-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Jonathan Fine
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/post/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+<a href="https://twitter.com/jfine2358" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://github.com/jfine2358" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Multi Author Docs</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-01-21T00:00:00Z">January 21, 2021</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="summary">Summary</h2>
+<p>We all know that TeX has large use cases, such as research math and
+physics. This post is about how TeX might help some small niche use
+cases. We study one example, and suggest how it might scale to
+others. The scaling depend on non-TeX software and systems, such as
+web frameworks, and server / cloud computing.</p>
+<h2 id="introduction">Introduction</h2>
+<p>We're social creatures. Mostly, we live in communities. We speak and
+listen. We use language. Fortunately, most of us read and
+write. Multiple author documents have a special place in our culture
+and history. For example, religion, laws and reference works. And also
+standards and source code for computer software.</p>
+<p>We're also tool makers and users, with imagination. This post is about
+making it easier for a group to come together to produce a multiple
+author document. It's based on a discussion I had with Gernot Salzer
+at a recent TeX Office Hour, on how he and his colleagues at TU Wien
+produce curricula for about 100 academic programs.</p>
+<p>If you're interested do drop in to my <a href="https://us04web.zoom.us/j/78551255396?pwd=cHdJN0pTTXRlRCtSd1lCTHpuWmNIUT09">TeX Office
+Hour</a>
+(every Thursday evening 6:30 to 7:30pm UK time).</p>
+<h2 id="the-tu-wien-example">The TU Wien example</h2>
+<p>TU Wien (see Links below) is one of the major universities in
+Austria. It's a technical university in Vienna. It has about 28,000
+students and 5,000 staff, of whom 3,800 are academics. It focuses on
+engineering, computer science and natural sciences. Its motto <em>Technik
+für Menschen</em> (Technology for People) could also be the motto for this
+article.</p>
+<p>It offers about 100 academic programs. I'll review the curriculum for
+one of them (see Links below).  You might like to take a look at it
+now, or after you've read this post.</p>
+<p>This curriculum has 91 pages. Its typography is quite simple -
+sections, paragraphs, lists, and a few tables. There are also some
+footnotes and semantic change of font. It's been typeset by LaTeX (as
+suggested by its fonts and layout).</p>
+<p>TU Wien has about 100 similar documents, that are revised from time to
+time. It has multiple authors, stakeholders and constraints including</p>
+<ul>
+<li>The state of Austria, via laws and legal regulations.</li>
+<li>The TU Wien Senate, via rules and regulations.</li>
+<li>Professors describing modules and courses.</li>
+<li>Curriculum managers providing additional information.</li>
+</ul>
+<p>For example, the senate must respect Austrian law, which requires
+curricula to use appropriate choice of words.  To me it seems likely
+that hundreds if not thousands of the 5,000 TU Wien staff contribute
+fairly directly to the authoring of at least one curriculum.</p>
+<p>Each author of a curriculum wants to be sure that the parts of the
+curriculum they're responsible for are accurate, and haven't been
+changed during the editorial and production process.</p>
+<p>The prospective student reading the curriculum has a different
+experience. For them, the author of the document is TU Wien. Further,
+it's a legal document. It describes the benefits provided to the
+student, as a result of enrolling in the programme.</p>
+<p>For both authors and readers, consistency is a great help.</p>
+<h2 id="the-generic-example">The generic example</h2>
+<p>Based on the above, and my experience of the Django web framework, I
+suggest creating a framework. Here's my suggestion for the use case.</p>
+<h3 id="design-goal">Design goal</h3>
+<p>An off-the-shelf open source software system, suitably configured,
+will provid a satisfactory solution. This is the guiding principle for
+the generic example.</p>
+<p>Configuration might require some customisation of software components,
+such as:</p>
+<ul>
+<li>Basic parameters</li>
+<li>Design parameters</li>
+<li>HTML templates</li>
+<li>CSS style sheets</li>
+<li>XSLT stylesheets</li>
+<li>TeX fonts and macros</li>
+</ul>
+<p>Only necessary knowledge should be required to configure and customise
+the system. In other words</p>
+<ul>
+<li>The specific use case</li>
+<li>The high level structure of the framework</li>
+<li>Knowledge of the configuration component being changed.</li>
+</ul>
+<p>In other words, no knowledge of HTML required to change the TeX
+macros, or vice versa.</p>
+<h3 id="people">People</h3>
+<p>The people constraint is based on the design goal just stated. In
+other words, <em>large enough to require an custom solution</em> and <em>small
+enough to have a simple solution</em>. The cost in time, effort and money
+should be low.</p>
+<p>Here's my guess. Your's might be different.</p>
+<ul>
+<li>1 organisation</li>
+<li>50 to 1,000 authors</li>
+<li>Easy to learn and use for most authors.</li>
+<li>Web interface available.</li>
+<li>20 to 500 similar documents</li>
+<li>Permissions governed by roles</li>
+<li>1 to 5 roles for each document</li>
+<li>Skills available sufficient for required customisation.</li>
+</ul>
+<h3 id="framework">Framework</h3>
+<p>This is a reformulation of the design goal.</p>
+<ul>
+<li>Provides basic facilities</li>
+<li>Off-the-shelf solutions for standard problems.</li>
+<li>Customisation by addition of components.</li>
+<li>Framework and components easy to configure.</li>
+<li>Clearly stated special skills, such as LaTeX, XML, XSLT, HTML, CSS
+(and of course Information Architecture).</li>
+<li>Separation of concerns (eg LaTeX expert doesn't need to know CSS).</li>
+</ul>
+<h3 id="deployment">Deployment</h3>
+<p>The basic idea is that deployment should be easy. And that it should
+rely only on widely used and understood resources.</p>
+<ul>
+<li>Store source documents in git, locally or on the cloud.</li>
+<li>Standard routes provided for cloud hosting.</li>
+<li>Compatible with running on local servers.</li>
+<li>Compatible with running on user PCs.</li>
+<li>Compatible with serverless computing (see Links below).</li>
+</ul>
+<h3 id="outputs">Outputs</h3>
+<p>As required by the organisation. Providing additional outputs should
+be straightforward. The core outputs should include:</p>
+<ul>
+<li>PDF</li>
+<li>HTML</li>
+<li>XML</li>
+<li>JSON</li>
+</ul>
+<h2 id="relevant-prior-art">Relevant prior art</h2>
+<p>The basic idea is to exploit structured content. One established
+example is XML publishing. See the Links below for three examples of
+how structured content is being converted to PDF.</p>
+<p>In a certain sense the basis idea is to build a generic tool that
+makes it much easier (and cheaper) to solve niche cases. For that the
+web frameworks such as Django, Flask and Hugo (see Links below)
+provide examples worth studying.</p>
+<p>These examples can provide inspiration, and a pattern to follow. More
+examples might be needed, as progress is made.</p>
+<h2 id="acknowledgement">Acknowledgement</h2>
+<p>I'm most grateful to Gernot Salzer for telling me about the production
+of curricula at TU Wien, and being generous in his time and providing
+further information. Any errors in the above are mine.</p>
+<h2 id="links">Links</h2>
+<p>TeX Office Hour</p>
+<ul>
+<li>Interested? Do drop in to <a href="https://us04web.zoom.us/j/78551255396?pwd=cHdJN0pTTXRlRCtSd1lCTHpuWmNIUT09">TeX Office
+Hour</a>
+(every Thursday evening 6:30 to 7:30pm UK time).</li>
+</ul>
+<p>People</p>
+<ul>
+<li><a href="https://informatics.tuwien.ac.at/people/gernot-salzer">Gernot
+Salzer</a></li>
+</ul>
+<p>TU Wien</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/TU_Wien">TU Wien (wikipedia)</a></li>
+<li><a href="https://www.tuwien.at/fileadmin/Assets/dienstleister/studienabteilung/BSc_Studienplaene_2020/Bachelorstudium_Software_And_Information_Engineering_2020.pdf">TU Wien: example curriculum (PDF)</a></li>
+<li><a href="https://tiss.tuwien.ac.at/curriculum/studyCodes.xhtml">TU Wien: list of academic programs</a></li>
+</ul>
+<p>Structured content to PDF</p>
+<ul>
+<li><a href="https://journal.r-project.org/">The R Journal - open referreed journal for statistical computing</a></li>
+<li><a href="https://www.reportlab.com/">Report Lab - content to PDF</a></li>
+<li><a href="http://www.silmaril.ie/">Simaril Consultants - XML, XSLT, LaTeX</a></li>
+</ul>
+<p>Wikipedia links</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Serverless_computing">Serverless computing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Django_(web_framework)">Django web framework</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Flask_(web_framework)">Flask web framework</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hugo_(software)">Hugo static site generator</a></li>
+</ul>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >
+    &copy; 2021 Jonathan Fine
+  </a>
+    <div>
+
+
+
+<a href="https://twitter.com/jfine2358" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://github.com/jfine2358" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+</div>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+  </script>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

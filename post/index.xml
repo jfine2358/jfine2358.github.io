@@ -6,10 +6,31 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blind Math News</title>
+      <link>/post/2021/01/21/blind-math-news/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/01/21/blind-math-news/</guid>
+      <description>Summary We look at some recent posts on the Blind Math mailing list. My main conclusion as a TeX developer is that many on that list prefer accessible HTML to accessible PDF. This is something that TeX developers need to be aware of.
+If you&#39;re interested in this topic you&#39;re invited to drop in to my TeX Office Hour (every Thursday evening 6:30 to 7:30pm UK time).
+The Blind Math list The National Federation of the Blind is the largest and oldest organisation led by blind people in the US.</description>
+    </item>
+    
+    <item>
+      <title>Multi Author Docs</title>
+      <link>/post/2021/01/21/multi-author-docs/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/01/21/multi-author-docs/</guid>
+      <description>Summary We all know that TeX has large use cases, such as research math and physics. This post is about how TeX might help some small niche use cases. We study one example, and suggest how it might scale to others. The scaling depend on non-TeX software and systems, such as web frameworks, and server / cloud computing.
+Introduction We&#39;re social creatures. Mostly, we live in communities. We speak and listen.</description>
+    </item>
     
     <item>
       <title>Happy Birthday Don Knuth</title>
