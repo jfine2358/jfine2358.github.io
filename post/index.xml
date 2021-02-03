@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Latex math on social media</title>
+      <link>/post/2021/02/03/latex-math-social-media/</link>
+      <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/02/03/latex-math-social-media/</guid>
+      <description>Social media This post is about writing math formulas in LaTeX, for use on social media web-sites such as math discussion forums. We focus on the experience users have, particularly those who&#39;ve not used LaTeX before.
+There&#39;s much more to social media than Facebook, TikTok, Snapchat and LinkedIn. There&#39;s specialist sites such as forums, wikis and Q+A sites (such as StackExchange). There&#39;s even a social media site (recommended) for all about apples, pears, plums, and cherries - and orchards where they are grown (URL is below).</description>
+    </item>
     
     <item>
       <title>Blind Math News</title>
