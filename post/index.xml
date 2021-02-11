@@ -6,10 +6,43 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Feb 2021 11:13:33 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blind Math News</title>
+      <link>/post/2021/02/11/blind-math-news/</link>
+      <pubDate>Thu, 11 Feb 2021 11:13:33 +0000</pubDate>
+      
+      <guid>/post/2021/02/11/blind-math-news/</guid>
+      <description>Summmary Last week I wrote to the Blind Math mailing list announcing a zoom TeX Hour tonight at 6:30 to 7:30pm UK time on accessible mathematics. I also wrote
+ Many teachers use LaTeX for course materials. I&#39;d like to have real-world examples of LaTeX math, and accessibility problems and solutions. Please send to this list or to me privately as you wish.
+ In this post I summarise the responses.</description>
+    </item>
+    
+    <item>
+      <title>Accessibility Evaluation: Open University and RNIB</title>
+      <link>/post/2021/02/11/access-eval-ou-rnib/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/02/11/access-eval-ou-rnib/</guid>
+      <description>Summary In February 2020 the UK&#39;s Open University (OU), working with the The Royal National Institute of Blind People (RNIB), produced a practical report on accessibility of mathematical content.
+This post provides a high level precis of the report. Its focus is on helping you which part of the report, if any, are relevant to you. I hope it encourages you to read this well-written report on carefully considered research.</description>
+    </item>
+    
+    <item>
+      <title>Accessibility Tools</title>
+      <link>/post/2021/02/11/access-tools/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/02/11/access-tools/</guid>
+      <description>This is a quick tour of some accessibility tools and other resources.
+This blog post here is one of three posts made today, all on accessible maths. The other posts are Blind Math News and Accessibility Evaluation: Open University and RNIB. For more on the TeX Hour see contact.
+Teaching and Learning Mathematics Online (TALM0) TALMO wrote:
+ As a result of Covid-19 it is increasingly likely that for UK Higher Education the start of the 2020/21 academic year will commence with online delivery.</description>
+    </item>
     
     <item>
       <title>Latex math on social media</title>
