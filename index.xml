@@ -6,10 +6,20 @@
     <description>Recent content on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 11:13:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tex Hour Agenda</title>
+      <link>/post/2021/02/18/tex-hour-agenda/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/02/18/tex-hour-agenda/</guid>
+      <description>Summary This post covers a lot, quickly. Here&#39;s a table of contents.
+ Report: Last week Accessible Mathematics; video recording. Discussion: This week (today) Input, Conversion and Output; LaTeX, Python docs, RST; everything to everything, Pandoc, Metcalfe&#39;s Law. Teaser: Next week Archival Documents and Software; Knuth on Future of TeX and Metafont (1990). Preview: Next month, monthly cycle; B, A, C, D and X; Why B before A?  Last week Accessible Mathematics Accessible mathematics was last week&#39;s topic.</description>
+    </item>
     
     <item>
       <title>Blind Math News</title>
