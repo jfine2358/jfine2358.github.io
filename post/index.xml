@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New Online Tools for TeX Beginners</title>
+      <link>/post/2021/03/04/new-online-tools-for-tex-beginners/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/03/04/new-online-tools-for-tex-beginners/</guid>
+      <description>Summary Many TeX users need more and better TeX tools that run in a web browser. And a better social network of TeX users. And a way for experts to share there experience and knowledge with beginners. This post shows what can be done now to move us forward.
+Beginner&#39;s TeX Hour tonight There&#39;s a Beginner&#39;s TeX hour tonight (Thursday 4 March) 6:30 to 7:30pm UK time. It&#39;s a chance to discuss this post, and to make your own suggestions.</description>
+    </item>
     
     <item>
       <title>Tex Hour Agenda</title>
