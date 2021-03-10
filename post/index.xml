@@ -6,10 +6,53 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Blind Math User Story</title>
+      <link>/post/2021/03/10/a-blind-math-user-story/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/03/10/a-blind-math-user-story/</guid>
+      <description>Summary A user story is a description of a system, from the point of view of a user of the system. Here give the user story of an engineering college student who is blind.
+For background see User Stories and Acccessibility. Every Thursday (18:30 to 19:30 UK time) there&#39;s a zoom TeX Hour. Details here.
+Once upon a time … This month on the Blind Math list Kellee Sanchez wrote</description>
+    </item>
+    
+    <item>
+      <title>A Visually Impaired Coder&#39;s User Story</title>
+      <link>/post/2021/03/10/a-visually-impaired-coders-user-story/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/03/10/a-visually-impaired-coders-user-story/</guid>
+      <description>Summary A user story is a description of a system, from the point of view of a user of the system. Here give the user story a person who&#39;s blind attending a software boot camp.
+For background see User Stories and Acccessibility. Every Thursday (18:30 to 19:30 UK time) there&#39;s a zoom TeX Hour. Details here.
+Once upon a time … This month on the Visually Impaired coders list Jana Schroeder wrote</description>
+    </item>
+    
+    <item>
+      <title>Accessible and Tagged PDF</title>
+      <link>/post/2021/03/10/accessible-and-tagged-pdf/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/03/10/accessible-and-tagged-pdf/</guid>
+      <description>Accessible PDF A PDF document is accessible to me if I can open and read it. That might depend on the circumstances and the document. It is a human-related property of the document. A real human being reading the document.
+Tagged PDF A PDF document is tagged if roughly speaking from it an equivalent HTML document can be obtained, by applying some technically specified software. The real human being reading the document is not present.</description>
+    </item>
+    
+    <item>
+      <title>User Stories and Accessibility</title>
+      <link>/post/2021/03/10/user-stories-and-accessibity/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/03/10/user-stories-and-accessibity/</guid>
+      <description>What is a user story? A user story is a description of a system, from the point of view of a user of the system. It&#39;s a story. Once upon a time there was a prince and so on. The traditional end is and they all lived happily ever after.
+Every Thursday (18:30 to 19:30 UK time) there&#39;s a zoom TeX Hour. Details here.
+A modern user story Once upon a time a Paralympian athlete caught the train.</description>
+    </item>
     
     <item>
       <title>New Online Tools for TeX Beginners</title>

@@ -3,21 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
+    <loc>/post/2021/03/10/a-blind-math-user-story/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/post/2021/03/04/new-online-tools-for-tex-beginners/</loc>
-    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
+    <loc>/post/2021/03/10/a-visually-impaired-coders-user-story/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2021/03/10/accessible-and-tagged-pdf/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2021/03/10/user-stories-and-accessibity/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2021/03/04/new-online-tools-for-tex-beginners/</loc>
     <lastmod>2021-03-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
