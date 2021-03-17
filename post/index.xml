@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Render Latex Multiple Ways</title>
+      <link>/post/2021/03/17/render-latex-multiple-ways/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/03/17/render-latex-multiple-ways/</guid>
+      <description>Summary This post is about LaTeX to PDF and LaTeX to HTML. It&#39;s preparation for the TeX Hour tomorrow (Thursday 18 March). In case you didn&#39;t know, every Thursday (18:30 to 19:30 UK time) there&#39;s a zoom TeX Hour. The zoom URL and other details here.
+At tomorrow&#39;s TeX Hour I&#39;ll attempt to give a history of producing PDF and HTML from a single source file, and related topics. Also, questions can be asked and there&#39;ll be discussion.</description>
+    </item>
     
     <item>
       <title>A Blind Math User Story</title>
