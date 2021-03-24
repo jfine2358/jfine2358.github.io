@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lighter TeX Runs Faster</title>
+      <link>/post/2021/03/24/lighter-tex-runs-faster/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/03/24/lighter-tex-runs-faster/</guid>
+      <description>Summary This post is making TeX working better on the cloud. It does this by making a custom TeX Live that contains only the resource your document needs. It&#39;s preparation for the TeX Hour tomorrow (Thursday 25 March). There&#39;s a proof-of-concept at the URLs at the foot of this page.
+In case you didn&#39;t know, every Thursday (18:30 to 19:30 UK time) there&#39;s a zoom TeX Hour. The zoom URL and other details are here.</description>
+    </item>
     
     <item>
       <title>Render Latex Multiple Ways</title>

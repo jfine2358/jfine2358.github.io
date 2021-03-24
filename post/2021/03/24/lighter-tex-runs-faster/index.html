@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Jonathan Fine </title>
+    <title>Jonathan Fine  | Lighter TeX Runs Faster</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.62.2" />
     
@@ -25,20 +25,26 @@
 
     
     
-      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Jonathan Fine" />
-      <link href="/index.xml" rel="feed" type="application/rss+xml" title="Jonathan Fine" />
-      
-    
-    
-    <meta property="og:title" content="Jonathan Fine" />
-<meta property="og:description" content="The last theme you&#39;ll ever need. Maybe." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2021-03-24T00:00:00+00:00" />
-<meta itemprop="name" content="Jonathan Fine">
-<meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe."><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Jonathan Fine"/>
-<meta name="twitter:description" content="The last theme you&#39;ll ever need. Maybe."/>
+    <meta property="og:title" content="Lighter TeX Runs Faster" />
+<meta property="og:description" content="Summary This post is making TeX working better on the cloud. It does this by making a custom TeX Live that contains only the resource your document needs. It&#39;s preparation for the TeX Hour tomorrow (Thursday 25 March). There&#39;s a proof-of-concept at the URLs at the foot of this page.
+In case you didn&#39;t know, every Thursday (18:30 to 19:30 UK time) there&#39;s a zoom TeX Hour. The zoom URL and other details are here." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/2021/03/24/lighter-tex-runs-faster/" />
+<meta property="article:published_time" content="2021-03-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-24T00:00:00+00:00" />
+<meta itemprop="name" content="Lighter TeX Runs Faster">
+<meta itemprop="description" content="Summary This post is making TeX working better on the cloud. It does this by making a custom TeX Live that contains only the resource your document needs. It&#39;s preparation for the TeX Hour tomorrow (Thursday 25 March). There&#39;s a proof-of-concept at the URLs at the foot of this page.
+In case you didn&#39;t know, every Thursday (18:30 to 19:30 UK time) there&#39;s a zoom TeX Hour. The zoom URL and other details are here.">
+<meta itemprop="datePublished" content="2021-03-24T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-03-24T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="757">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Lighter TeX Runs Faster"/>
+<meta name="twitter:description" content="Summary This post is making TeX working better on the cloud. It does this by making a custom TeX Live that contains only the resource your document needs. It&#39;s preparation for the TeX Hour tomorrow (Thursday 25 March). There&#39;s a proof-of-concept at the URLs at the foot of this page.
+In case you didn&#39;t know, every Thursday (18:30 to 19:30 UK time) there&#39;s a zoom TeX Hour. The zoom URL and other details are here."/>
 
       
 <script type="application/javascript">
@@ -58,11 +64,11 @@ if (!doNotTrack) {
   <body class="ma0 avenir bg-near-white production">
 
     
+   
+  
 
-  
-  
-  <header class="cover bg-top" style="background-image: url('/%20');">
-    <div class="bg-black-60">
+  <header>
+    <div class="bg-black">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -122,212 +128,159 @@ if (!doNotTrack) {
   </div>
 </nav>
 
-      <div class="tc-l pv2 pv1-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-2 fw2 white-90 mb0 lh-title">
-          Jonathan Fine
-        </h1>
-        
-      </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Lighter TeX Runs Faster</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-03-24T00:00:00Z">March 24, 2021</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="summary">Summary</h2>
+<p>This post is making TeX working better on the cloud. It does this by
+making a custom TeX Live that contains only the resource your document
+needs. It's preparation for the TeX Hour tomorrow (Thursday 25
+March). There's a proof-of-concept at the URLs at the foot of this
+page.</p>
+<p>In case you didn't know, every Thursday (18:30 to 19:30 UK time)
+there's a zoom TeX Hour. The zoom URL and other details are
+<a href="/contact">here</a>.</p>
+<h2 id="introduction">Introduction</h2>
+<p>Github provides free continuous integration (CI). This means for
+example that tests are run whenever there's a commit. And it doesn't
+have to be tests. We could run LaTeX whenever one of our source files
+is changed. This tests run quicker when we they install only the
+necessary resouces.  Before about 2 minutes. After about 20
+seconds. This is satisfactory for occasional use and, but
+construction, is fully integrated into Github. I expect the same to be
+true for Gitlab.</p>
+<h2 id="an-example">An example</h2>
+<p>The source file for Don Knuth's <em>The TeXbook</em> is, roughly, 20,000
+lines occupying 1.4 MB. A TeX-Live distribution when installed
+occupies several gigabytes. In other words, perhaps 3,000 times the
+size. Most of this mass of files is not needed to typeset <em>The
+TeXbook</em>.</p>
+<p>I've developed a semi-automated method that discovers exactly which
+files are needed to typeset a TeX or LaTeX document. Chapter 6 of <em>The
+TeXbook</em> uses a short file <code>story.tex</code> as an example. Here it is.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-latex" data-lang="latex"><span style="color:#66d9ef">\hrule</span>
+<span style="color:#66d9ef">\vskip</span> 1in
+<span style="color:#66d9ef">\centerline</span>{<span style="color:#66d9ef">\bf</span> A SHORT STORY}
+<span style="color:#66d9ef">\vskip</span> 6pt
+<span style="color:#66d9ef">\centerline</span>{<span style="color:#66d9ef">\sl</span>    by A. U. Thor} <span style="color:#75715e">% !`?`?! (modified)
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">\vskip</span> .5cm
+Once upon a time, in a distant
+  galaxy called <span style="color:#66d9ef">\&#34;</span>O<span style="color:#66d9ef">\&#34;</span>o<span style="color:#66d9ef">\c</span> c,
+there lived a computer
+named R.~J. Drofnats.
+
+Mr.~Drofnats---or ``R. J.,&#39;&#39; as
+he preferred to be called---<span style="color:#75715e">% error has been fixed!
+</span><span style="color:#75715e"></span>was happiest when he was at work
+typesetting beautiful documents.
+<span style="color:#66d9ef">\vskip</span> 1in
+<span style="color:#66d9ef">\hrule</span>
+<span style="color:#66d9ef">\vfill</span><span style="color:#66d9ef">\eject</span>
+</code></pre></div><p>To typeset this file to PDF requires 5 additional files, that occupy
+about 6MB in total. (When compressed, they're less than 2.5MB.)</p>
+<pre><code># bytes name
+34811	cmbx10.pfb
+35752	cmr10.pfb
+35022	cmsl10.pfb
+2219712	pdftex
+3899591	pdftex.fmt
+</code></pre><h2 id="a-comparison">A comparison</h2>
+<p>First before. We use this LaTeX file</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-latex" data-lang="latex"><span style="color:#66d9ef">\documentclass</span>{article}
+<span style="color:#66d9ef">\begin</span>{document}
+Hello world.
+<span style="color:#66d9ef">\end</span>{document}
+</code></pre></div><p>Running the typesetting this document takes over 2 minutes.  For
+evidence see the <a href="https://github.com/social-tex/explore-latex-action/actions">actions record
+page</a>.</p>
+<p>Now after. Running the typesetting <code>story.tex</code> using the lighter TeX
+takes about 20 seconds. For evidence see the <a href="https://github.com/social-tex/explore-tex-action/actions">actions record
+page</a>.</p>
+<h2 id="why-the-difference">Why the difference?</h2>
+<p>For both the TeX and LaTeX examples the typesetting task is in the
+queue for about 15 seconds before being started. The typesetting
+itself takes no more than a second in both cases. The big difference
+is in setting up the typesetting environment. In the CI system this is
+done from scratch every time. That helps ensure reproducible results.</p>
+<p>For LaTeX we used a generic install from TeX-Live. For TeX we used a
+custom install that provided only the 5 files listed above, together
+with configuration and utitity scripts. For LaTeX this took almost 2
+minutes. For TeX it took no time at all.</p>
+<h2 id="isnt-this-unfair-to-latex">Isn't this unfair to LaTeX?</h2>
+<p>I chose to optimise Don Knuth's <code>story.tex</code> because it was small
+enough to be done by hand. I then chose to semi-automate it to avoid
+errors and ensure reproducibility.</p>
+<p>Repeating this process for LaTeX might require more work on the
+automation tools. After that, I fully expect the LaTeX results to be
+within 5 seconds of the TeX results. And in both cases I expect more
+complex documents to add only a few seconds.</p>
+<p>Of course, if you're typesetting a font catalog or a comprehensive
+symbol list then you'll have to install a lot of fonts. This might
+take a few seconds.</p>
+<h2 id="the-future">The future</h2>
+<p>To learn more go to the pages</p>
+<ul>
+<li><a href="https://github.com/social-tex/explore-tex-action">https://github.com/social-tex/explore-tex-action</a></li>
+<li><a href="https://github.com/social-tex/explore-latex-action">https://github.com/social-tex/explore-latex-action</a></li>
+</ul>
+<p>and explore. Soon, probably tomorrow, I provide proof-of-concept
+instructions on how use these Social TeX repositories to typeset
+suitable content of your own.</p>
+<p><strong>Hint:</strong> Fork the repository, enable Actions in the fork, and modify
+the source files</p>
+<ul>
+<li><a href="https://github.com/social-tex/explore-tex-action/blob/y2021p005/finish/story.tex">https://github.com/social-tex/explore-tex-action/blob/y2021p005/finish/story.tex</a></li>
+<li><a href="https://github.com/social-tex/explore-latex-action/blob/main/hello.tex">https://github.com/social-tex/explore-latex-action/blob/main/hello.tex</a></li>
+</ul>
+<p>but in your clone of the Social TeX repository.</p>
+<p>When you go to your Actions tab and click on the TeX / LaTeX action in
+the workflows column, you'll see a <em>Run workflow</em> button. Press it!</p>
+<h2 id="apologies">Apologies</h2>
+<p>This is all proof-of-concept at present. My focus has been on
+understanding and solving the technical problems. So usability and
+documentation isn't quite there yet. A thorough reworking is needed.</p>
+<h2 id="acknowledgement">Acknowledgement</h2>
+<p>Xu Cheng's <a href="https://github.com/xu-cheng/latex-action">https://github.com/xu-cheng/latex-action</a> gave me a great
+help in getting my own work started. It provided something out of the
+box that worked, that I could tinker with. I'm most
+grateful. Altogether 68 people have forked his work.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
   </article>
-  
-  
-  
-  
-  
-  
-  
-    
-    
-
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      
-       
-          <h1 class="flex-none">
-            Recent Posts
-          </h1>
-        
-
-      
-
-      <section class="w-100 mw8">
-        
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/post/2021/03/24/lighter-tex-runs-faster/" class="color-inherit dim link">
-            Lighter TeX Runs Faster
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Summary This post is making TeX working better on the cloud. It does this by making a custom TeX Live that contains only the resource your document needs. It's preparation for the TeX Hour tomorrow (Thursday 25 March). There's a proof-of-concept at the URLs at the foot of this page.
-In case you didn't know, every Thursday (18:30 to 19:30 UK time) there's a zoom TeX Hour. The zoom URL and other details are here.
-        </div>
-          <a href="/post/2021/03/24/lighter-tex-runs-faster/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/post/2021/03/17/render-latex-multiple-ways/" class="color-inherit dim link">
-            Render Latex Multiple Ways
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Summary This post is about LaTeX to PDF and LaTeX to HTML. It's preparation for the TeX Hour tomorrow (Thursday 18 March). In case you didn't know, every Thursday (18:30 to 19:30 UK time) there's a zoom TeX Hour. The zoom URL and other details here.
-At tomorrow's TeX Hour I'll attempt to give a history of producing PDF and HTML from a single source file, and related topics. Also, questions can be asked and there'll be discussion.
-        </div>
-          <a href="/post/2021/03/17/render-latex-multiple-ways/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/post/2021/03/10/a-blind-math-user-story/" class="color-inherit dim link">
-            A Blind Math User Story
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Summary A user story is a description of a system, from the point of view of a user of the system. Here give the user story of an engineering college student who is blind.
-For background see User Stories and Acccessibility. Every Thursday (18:30 to 19:30 UK time) there's a zoom TeX Hour. Details here.
-Once upon a time … This month on the Blind Math list Kellee Sanchez wrote
-        </div>
-          <a href="/post/2021/03/10/a-blind-math-user-story/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/post/2021/03/10/a-visually-impaired-coders-user-story/" class="color-inherit dim link">
-            A Visually Impaired Coder&#39;s User Story
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Summary A user story is a description of a system, from the point of view of a user of the system. Here give the user story a person who's blind attending a software boot camp.
-For background see User Stories and Acccessibility. Every Thursday (18:30 to 19:30 UK time) there's a zoom TeX Hour. Details here.
-Once upon a time … This month on the Visually Impaired coders list Jana Schroeder wrote
-        </div>
-          <a href="/post/2021/03/10/a-visually-impaired-coders-user-story/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/post/2021/03/10/accessible-and-tagged-pdf/" class="color-inherit dim link">
-            Accessible and Tagged PDF
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Accessible PDF A PDF document is accessible to me if I can open and read it. That might depend on the circumstances and the document. It is a human-related property of the document. A real human being reading the document.
-Tagged PDF A PDF document is tagged if roughly speaking from it an equivalent HTML document can be obtained, by applying some technically specified software. The real human being reading the document is not present.
-        </div>
-          <a href="/post/2021/03/10/accessible-and-tagged-pdf/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-      </section>
-
-      
-      <section class="w-100">
-        <h1 class="f3">More</h1>
-        
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/post/2021/03/10/user-stories-and-accessibility/" class="link black dim">
-              User Stories and Accessibility
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/post/2021/03/04/new-online-tools-for-tex-beginners/" class="link black dim">
-              New Online Tools for TeX Beginners
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/post/2021/02/18/tex-hour-agenda/" class="link black dim">
-              Tex Hour Agenda
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/post/2021/02/11/blind-math-news/" class="link black dim">
-              Blind Math News
-            </a>
-          </h2>
-        
-
-        
-        
-          <a href="/post/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
-        
-        </section>
-      
-
-      </div>
-  
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
