@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Jonathan Fine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Towards 21st Century Digital Typography</title>
+      <link>/post/2021/07/14/towards-21st-century-digital-typography/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/07/14/towards-21st-century-digital-typography/</guid>
+      <description>The years 2078 to 2082 will be the 100th anniversary of Don Knuth&#39;s creation of TeX, Metafont and the Computer Modern fonts. Being already more than middle-aged, I won&#39;t be there to celebrate.
+I&#39;ll be giving a talk on this at the online 2021 TeX Conference (5-8 August). The abstract is below. At tomorrow&#39;s (15 July, 18:30 UK time) TeX Hour your views on this topic will be most welcome. For details see contact.</description>
+    </item>
     
     <item>
       <title>Lighter TeX Runs Faster</title>
